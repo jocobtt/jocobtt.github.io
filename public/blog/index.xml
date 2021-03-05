@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on jbrazzy Data Fun</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Blogs on jbrazzy Data Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 21:56:55 +0100</lastBuildDate>
-    
-	<atom:link href="https://jocobtt.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 10 Apr 2017 16:42:50 +0100</lastBuildDate><atom:link href="https://jocobtt.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to Kube</title>
       <link>https://jocobtt.github.io/blog/welcome/</link>
@@ -27,8 +23,7 @@ Bear claw danish chocolate lollipop soufflé jelly. Apple pie chocolate cake jel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jocobtt.github.io/blog/typography/</guid>
-      <description>Get Started Typography of Kube based on the 4px horizontal grid, it means that for the headers, paragraphs, quotes and any other texts chosen are a combination of line-height, that fit into the 4px grid and help set the horizontal rhythm of design by default.
-  4px grid for typography - the magic of the horizontal rhythm   With this feature, you can quickly and easily make a solid and harmonious-looking website and UI design.</description>
+      <description></description>
     </item>
     
     <item>
@@ -47,7 +42,7 @@ Since time was of the essence and writing is expensive, I decided to do the prot
       <pubDate>Mon, 10 Apr 2017 16:41:34 +0100</pubDate>
       
       <guid>https://jocobtt.github.io/blog/messages/</guid>
-      <description>Usage You have 2 modules waiting to installation. Install   &amp;lt;div class=&amp;ldquo;message&amp;rdquo; data-component=&amp;ldquo;message&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;span class=&amp;ldquo;close small&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;  You have 2 modules waiting to installation. Install   &amp;lt;div class=&amp;ldquo;message error&amp;rdquo; data-component=&amp;ldquo;message&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;span class=&amp;ldquo;close small&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;  You have 2 modules waiting to installation. Install   &amp;lt;div class=&amp;ldquo;message success&amp;rdquo; data-component=&amp;ldquo;message&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;span class=&amp;ldquo;close small&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;  Warning!You have 2 modules waiting to installation. Install   &amp;lt;div class=&amp;ldquo;message warning&amp;rdquo; data-component=&amp;ldquo;message&amp;rdquo;&amp;gt; &amp;lt;h5&amp;gt;&amp;hellip;&amp;lt;/h5&amp;gt; &amp;hellip; &amp;lt;span class=&amp;ldquo;close small&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt;   You have 2 modules waiting to installation.</description>
+      <description></description>
     </item>
     
     <item>
@@ -56,7 +51,7 @@ Since time was of the essence and writing is expensive, I decided to do the prot
       <pubDate>Mon, 10 Apr 2017 16:42:50 +0100</pubDate>
       
       <guid>https://jocobtt.github.io/blog/collapse/</guid>
-      <description>Base Item 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <description>&amp;lt;divid=&amp;ldquo;my-collapse-api&amp;rdquo;data-component=&amp;ldquo;collapse&amp;rdquo;&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-1&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-1&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-2&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-2&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;href&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;#box-3&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-toggle&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;/&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;h4&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-tag&amp;quot;&amp;gt;&amp;amp;lt;&amp;lt;span class=&amp;quot;hljs-name&amp;quot;&amp;gt;div&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;class&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;collapse-box hide&amp;quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&amp;quot;hljs-attr&amp;quot;&amp;gt;id&amp;lt;/span&amp;gt;=&amp;lt;span class=&amp;quot;hljs-string&amp;quot;&amp;gt;&amp;quot;box-3&amp;quot;&amp;lt;/span&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;.</description>
     </item>
     
     <item>
@@ -65,7 +60,7 @@ Since time was of the essence and writing is expensive, I decided to do the prot
       <pubDate>Sun, 02 Apr 2017 21:56:55 +0100</pubDate>
       
       <guid>https://jocobtt.github.io/blog/inline-style/</guid>
-      <description>Chocolate tiramisu pastry a link cotton candy sesame snaps. Dessert cake chocolate bar a bold part sugar plum bonbon marshmallow lollipop toffee soufflé. Donut caramels chocolate bar. Oat cake cookie a marked part cheesecake donut. Jelly-o  $code marzipan cake. Bonbon sesame snaps chocolate an italic part oat cake pudding sweet roll caramels bonbon. Soufflé muffin 👻 gummies sugar plum dessert bonbon bear claw. Sweet ice cream jujubes. Marzipan sugar plum pastry chocolate ⌘+A bar fruitcake.</description>
+      <description>Chocolate tiramisu pastry a link cotton candy sesame snaps. Dessert cake chocolate bar a bold part sugar plum bonbon marshmallow lollipop toffee soufflé. Donut caramels chocolate bar. Oat cake cookie a marked part cheesecake donut. Jelly-o $code marzipan cake. Bonbon sesame snaps chocolate an italic part oat cake pudding sweet roll caramels bonbon. Soufflé muffin 👻 gummies sugar plum dessert bonbon bear claw. Sweet ice cream jujubes. Marzipan sugar plum pastry chocolate ⌘+A bar fruitcake.</description>
     </item>
     
   </channel>

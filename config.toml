@@ -1,14 +1,15 @@
 baseURL = "https://jocobtt.github.io/"
 languageCode = "en-us"
-title = "jbrazzy Data Fun"
+title = "jbrazzy's Data Science Blog"
 theme = "kube"
 description = "Website for me to keep some blogs and other stuff"
 Paginate = 4
 [Params]
-  RSSLink = "/index.xml"
-  github = "jocobtt" # add your github profile name
-  twitter = "jbrazzy-1" # add your twitter profile
-  email = "jacob.braswell00@gmail.com"
+  RSSLink   = "/index.html"
+  github    = "jocobtt" # add your github profile name
+  twitter   = "jbrazzy-1" # add your twitter profile
+  email     = "jacob.braswell00@gmail.com"
+  linkedin  = "https://www.linkedin.com/in/jacob-braswell/" 
 
 [[menu.main]]
     name = "Docs"
