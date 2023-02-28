@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jacob Braswell</title>
+    <link>https://jocobtt.github.io/</link>
+    <description>Recent content on Jacob Braswell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>jacob.braswell00@gmail.com (Jacob Braswell)</managingEditor>
+    <webMaster>jacob.braswell00@gmail.com (Jacob Braswell)</webMaster><atom:link href="https://jocobtt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://jocobtt.github.io/about/</link>
+      <pubDate>Sun, 08 Jan 2023 18:38:09 -0500</pubDate>
+      <author>jacob.braswell00@gmail.com (Jacob Braswell)</author>
+      <guid>https://jocobtt.github.io/about/</guid>
+      <description>Howdy! Hello and welcome to my blog! My name is Jacob and I am excited to share a little bit about myself with you.
+I have always been passionate about technology and have been fascinated by the endless possibilities it brings. From a young age, I have been tinkering with computers and have enjoyed learning about the world around me and how tech can be used to solve problems. This curiosity and love for technology eventually led me to pursue a degree in statistics and start my career in the tech industry.</description>
+    </item>
+    
+    <item>
+      <title>Connect</title>
+      <link>https://jocobtt.github.io/connect/</link>
+      <pubDate>Sun, 08 Jan 2023 18:37:15 -0500</pubDate>
+      <author>jacob.braswell00@gmail.com (Jacob Braswell)</author>
+      <guid>https://jocobtt.github.io/connect/</guid>
+      <description>If you are wanting to reach out, feel free to connect with me on LinkedIn!</description>
+    </item>
+    
+  </channel>
+</rss>

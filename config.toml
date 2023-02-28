@@ -1,0 +1,48 @@
+baseurl = "https://jocobtt.github.io"
+DefaultContentLanguage = "en"
+title = "Jacob Braswell"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Various tech ramblings"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = false
+  wordCount = false
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Jacob Braswell"
+  email = "jacob.braswell00@gmail.com"
+  github = "jocobtt"
+  linkedin = "jacob-braswell"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Connect"
+    url = "connect"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 3
+
