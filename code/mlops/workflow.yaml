@@ -1,0 +1,42 @@
+# argo workflow 
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: mlops-template
+spec:
+  entrypoint: pipeline
+  templates:
+  - name: pipeline
+    steps:
+    - - name: ETL-Process 
+        template: etl 
+    - - name: Model-Train
+        template: training
+    - - name: Model-Serve
+        template: deploy 
+    - - name: Inference 
+        template: inference 
+  - name: etl
+    container: 
+      image: etl-image
+      env: 
+      - name: BUCKET
+        value: "{{workflow.parameters.bucket}}"
+  - name: training
+    container: 
+      image: train-image
+      env:
+      - name: BUCKET 
+        value: "{{workflow.parameters.bucket}}"
+  - name: deploy 
+    container: 
+      image: deploy
+      env: 
+      - name: BUCKET
+        value: "{{workflow.parameters.bucket}}"
+  - name: inference
+    container: 
+      image: inference-image
+      env: 
+      - name: BUCKET 
+        value: "{{workflow.parameters.bucket}}"
