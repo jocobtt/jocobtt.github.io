@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jacob Braswell</title>
+    <link>https://jocobtt.github.io/posts/</link>
+    <description>Recent content in Posts on Jacob Braswell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>jacob.braswell00@gmail.com (Jacob Braswell)</managingEditor>
+    <webMaster>jacob.braswell00@gmail.com (Jacob Braswell)</webMaster>
+    <lastBuildDate>Wed, 15 Mar 2023 14:15:06 -0500</lastBuildDate><atom:link href="https://jocobtt.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro</title>
+      <link>https://jocobtt.github.io/posts/intro/</link>
+      <pubDate>Wed, 15 Mar 2023 14:15:06 -0500</pubDate>
+      <author>jacob.braswell00@gmail.com (Jacob Braswell)</author>
+      <guid>https://jocobtt.github.io/posts/intro/</guid>
+      <description>Hello! This is me starting my blog. I am wanting to use this space as a way to share some things that I am learning.
+Who am I? By way of introduction, I am an MLOps engineer with a background in statistics. I enjoy learning new technologies and concepts and this blog is one way I hope to better learn things myself. I am hoping to post about once a month but we will see if I can keep that cadence in the future.</description>
+    </item>
+    
+  </channel>
+</rss>
