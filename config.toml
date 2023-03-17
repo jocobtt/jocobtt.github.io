@@ -9,10 +9,10 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Various tech ramblings"
+  subtitle = "MLOps Engineer & Tech Enthusiast"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  logo = "img/me.png" # Expecting square dimensions
+  favicon = "img/robot_.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = false
@@ -20,7 +20,7 @@ pygmentsCodefencesGuessSyntax = true
   readingTime = false
   wordCount = false
   useHLJS = true
-  socialShare = true
+  socialShare = false
   delayDisqus = true
   showRelatedPosts = true
 
@@ -45,4 +45,9 @@ pygmentsCodefencesGuessSyntax = true
     name = "About"
     url = "about"
     weight = 3
+
+#[[menu.main]]
+#    name = "Portfolio"
+#    url = "portfolio"
+#    weight = 3
 
