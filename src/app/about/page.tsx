@@ -27,8 +27,8 @@ export default function About() {
               <p>
                 Throughout my career, I have had the opportunity to work on a wide variety of projects 
                 and have gained valuable experience in fields such as finance, education, marketing, 
-                and information technology. In my current role, I am an MLOps Engineer at{' '}
-                <span className="font-semibold text-blue-600">Booz Allen Hamilton</span> where I get to 
+                and information technology. In my current role, I am an Senior AI Solutions Engineer at{' '}
+                <span className="font-semibold text-blue-600">Seekr</span> where I get to 
                 work on exciting projects and continue learning every day.
               </p>
             </div>
@@ -111,7 +111,7 @@ export default function About() {
               
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Topics I'll Cover:</h3>
               <div className="flex flex-wrap gap-3">
-                {['MLOps', 'Cloud Computing', 'DevOps', 'Data Science', 'Tech Career', 'Learning'].map((topic) => (
+                {['MLOps', 'LLM/Generative AI', 'Agentic AI', 'Cloud Computing', 'DevOps', 'Data Science', 'Tech Career', 'Learning'].map((topic) => (
                   <span 
                     key={topic}
                     className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"

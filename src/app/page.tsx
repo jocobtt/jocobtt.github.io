@@ -11,7 +11,7 @@ export default function Home() {
             Jacob Braswell
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            MLOps Engineer & Tech Enthusiast
+            An AI Engineer & Tech Enthusiast
           </p>
           <p className="text-lg text-gray-500 max-w-3xl mx-auto leading-relaxed">
             Welcome to my personal website. I&apos;m passionate about machine learning operations,
