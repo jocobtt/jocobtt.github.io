@@ -7,7 +7,7 @@ export default function Resume() {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-3 font-serif">Jacob Braswell</h1>
-            <p className="text-2xl text-gray-600 mb-6 font-semibold">MLOps Engineer</p>
+            <p className="text-2xl text-gray-600 mb-6 font-semibold">AI Engineer</p>
             <div className="text-gray-600 space-y-2">
               <p>Arlington, VA</p>
               <div className="flex flex-wrap justify-center gap-4 text-sm">
@@ -48,10 +48,20 @@ export default function Resume() {
             <div className="space-y-8">
               <div className="border-l-4 border-blue-500 pl-6">
                 <h3 className="text-xl font-bold text-gray-900">
+                  Seekr - <span className="text-blue-600">Senior AI Solutions Engineer</span>
+                </h3>
+                <p className="text-gray-600 italic mb-3">January 2026 - Present</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• 🤗</li>
+                </ul>
+              </div>
+              <div className="border-l-4 border-blue-500 pl-6">
+                <h3 className="text-xl font-bold text-gray-900">
                   Booz Allen Hamilton - <span className="text-blue-600">MLOps Engineer</span>
                 </h3>
-                <p className="text-gray-600 italic mb-3">April 2023 - Present</p>
+                <p className="text-gray-600 italic mb-3">April 2023 - December 2025</p>
                 <ul className="text-gray-700 space-y-2">
+                  <li>• Building Generative and Agentic AI solutions</li>
                   <li>• Building multi-cluster MLOps platforms and GitOps workflows on AWS GovCloud</li>
                   <li>• Implementing KServe for scalable inference and Karpenter for resource optimization</li>
                   <li>• Designing Infrastructure-as-Code solutions with Terraform and GitHub Actions</li>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Jacob Braswell - MLOps Engineer & Tech Enthusiast",
   description: "Personal website of Jacob Braswell, MLOps Engineer focused on cloud computing, DevOps, and data science.",
   authors: [{ name: "Jacob Braswell" }],
-  keywords: ["MLOps", "Data Science", "Cloud Computing", "DevOps", "Software Engineering"],
+  keywords: ["MLOps", "LLM/Generative AI", "Agentic AI", "Data Science", "Cloud Computing", "DevOps", "Software Engineering"],
 };
 
 export default function RootLayout({

@@ -10,7 +10,7 @@ export default function Connect() {
               Let's Connect!
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              I love chatting about tech, MLOps, data science, or just about anything interesting. 
+              I love chatting about tech, MLOps, LLMs/Generative AI, data science, or just about anything interesting. 
               Hit me up if you want to connect!
             </p>
           </div>

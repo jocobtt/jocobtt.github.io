@@ -46,3 +46,4 @@ yarn-error.log*
 
 # Deployment
 .vercel
+CLAUDE.md
