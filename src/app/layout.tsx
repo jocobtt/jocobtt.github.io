@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jacob Braswell - MLOps Engineer & Tech Enthusiast",
-  description: "Personal website of Jacob Braswell, MLOps Engineer focused on cloud computing, DevOps, and data science.",
+  title: "Jacob Braswell - Senior AI Solutions Engineer",
+  description: "Personal website of Jacob Braswell — Senior AI Solutions Engineer at Seekr. Fine-tuning, Sovereign AI, agentic architectures, LLMOps.",
   authors: [{ name: "Jacob Braswell" }],
-  keywords: ["MLOps", "LLM/Generative AI", "Agentic AI", "Data Science", "Cloud Computing", "DevOps", "Software Engineering"],
+  keywords: ["AI Engineer", "Fine-tuning", "Sovereign AI", "Agentic AI", "LLMOps", "MLOps", "KServe", "vLLM", "Terraform", "Kubernetes"],
 };
 
 export default function RootLayout({

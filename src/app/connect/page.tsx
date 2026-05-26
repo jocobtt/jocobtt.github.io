@@ -1,33 +1,34 @@
 // src/app/connect/page.tsx
 export default function Connect() {
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-stone-50 min-h-screen">
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
-            <h1 className="text-5xl font-bold text-gray-900 mb-6 font-serif">
-              Let's Connect!
+            <h1 className="text-5xl font-bold text-stone-900 mb-6 font-serif">
+              Let&apos;s Connect!
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              I love chatting about tech, MLOps, LLMs/Generative AI, data science, or just about anything interesting. 
+            <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full mb-6"></div>
+            <p className="text-xl text-stone-600 leading-relaxed max-w-2xl mx-auto">
+              I love chatting about AI, LLMOps, fine-tuning, agentic systems, infrastructure, or just about anything interesting.
               Hit me up if you want to connect!
             </p>
           </div>
 
           {/* Contact Methods */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 font-serif text-center">
+            <h2 className="text-3xl font-bold text-stone-900 mb-8 font-serif text-center">
               Find Me Here
             </h2>
-            
+
             <div className="grid md:grid-cols-2 gap-6">
               {/* LinkedIn */}
-              <a 
+              <a
                 href="https://www.linkedin.com/in/jacob-braswell/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-blue-50 hover:bg-blue-100 rounded-lg p-8 transition-all duration-300 border-2 border-transparent hover:border-blue-200"
+                className="group bg-white hover:bg-stone-50 rounded-xl p-8 transition-all duration-300 border border-stone-200 hover:border-amber-300 hover:shadow-md"
               >
                 <div className="flex items-center space-x-4">
                   <div className="bg-blue-600 rounded-lg p-3 group-hover:scale-110 transition-transform">
@@ -36,13 +37,13 @@ export default function Connect() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                    <h3 className="text-xl font-bold text-stone-900 group-hover:text-amber-700 transition-colors">
                       LinkedIn
                     </h3>
-                    <p className="text-gray-600 mt-1">Best for professional stuff</p>
+                    <p className="text-stone-500 mt-1">Best for professional stuff</p>
                   </div>
                 </div>
-                <div className="mt-4 text-blue-600 group-hover:text-blue-700 font-medium flex items-center">
+                <div className="mt-4 text-amber-700 group-hover:text-amber-800 font-medium flex items-center">
                   Connect on LinkedIn
                   <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -51,26 +52,26 @@ export default function Connect() {
               </a>
 
               {/* GitHub */}
-              <a 
+              <a
                 href="https://github.com/jocobtt"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-gray-50 hover:bg-gray-100 rounded-lg p-8 transition-all duration-300 border-2 border-transparent hover:border-gray-200"
+                className="group bg-white hover:bg-stone-50 rounded-xl p-8 transition-all duration-300 border border-stone-200 hover:border-amber-300 hover:shadow-md"
               >
                 <div className="flex items-center space-x-4">
-                  <div className="bg-gray-800 rounded-lg p-3 group-hover:scale-110 transition-transform">
+                  <div className="bg-stone-800 rounded-lg p-3 group-hover:scale-110 transition-transform">
                     <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 group-hover:text-gray-700 transition-colors">
+                    <h3 className="text-xl font-bold text-stone-900 group-hover:text-amber-700 transition-colors">
                       GitHub
                     </h3>
-                    <p className="text-gray-600 mt-1">Some of my projects and contributions</p>
+                    <p className="text-stone-500 mt-1">Some of my projects and contributions</p>
                   </div>
                 </div>
-                <div className="mt-4 text-gray-700 group-hover:text-gray-800 font-medium flex items-center">
+                <div className="mt-4 text-amber-700 group-hover:text-amber-800 font-medium flex items-center">
                   View my code
                   <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -83,22 +84,22 @@ export default function Connect() {
                 href="https://x.com/brazz_j"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-sky-50 hover:bg-sky-100 rounded-lg p-8 transition-all duration-300 border-2 border-transparent hover:border-sky-200"
+                className="group bg-white hover:bg-stone-50 rounded-xl p-8 transition-all duration-300 border border-stone-200 hover:border-amber-300 hover:shadow-md"
               >
                 <div className="flex items-center space-x-4">
-                  <div className="bg-black rounded-lg p-3 group-hover:scale-110 transition-transform">
+                  <div className="bg-stone-900 rounded-lg p-3 group-hover:scale-110 transition-transform">
                     <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 group-hover:text-sky-600 transition-colors">
-                      Twitter/X
+                    <h3 className="text-xl font-bold text-stone-900 group-hover:text-amber-700 transition-colors">
+                      Twitter / X
                     </h3>
-                    <p className="text-gray-600 mt-1">Quick thoughts and updates</p>
+                    <p className="text-stone-500 mt-1">Quick thoughts and updates</p>
                   </div>
                 </div>
-                <div className="mt-4 text-sky-600 group-hover:text-sky-700 font-medium flex items-center">
+                <div className="mt-4 text-amber-700 group-hover:text-amber-800 font-medium flex items-center">
                   Follow me on X
                   <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -109,34 +110,33 @@ export default function Connect() {
           </section>
 
           {/* Response Time */}
-          <div className="bg-blue-50 rounded-lg p-8 text-center">
+          <div className="bg-amber-50 rounded-xl p-8 text-center border border-amber-200">
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <h3 className="text-xl font-bold text-gray-900">Response Time</h3>
+              <h3 className="text-xl font-bold text-stone-900">Response Time</h3>
             </div>
-            <p className="text-gray-700 text-lg">
-              I usually respond within a day or two. Looking forward to hearing from you! 
-              <span className="text-2xl ml-2">👋</span>
+            <p className="text-stone-700 text-lg">
+              I usually respond within a day or two. Looking forward to hearing from you!
             </p>
           </div>
 
           {/* Additional CTAs */}
           <div className="mt-12 text-center">
-            <p className="text-gray-600 mb-6">
-              Want to see what I've been working on?
+            <p className="text-stone-600 mb-6">
+              Want to see what I&apos;ve been working on?
             </p>
-            <div className="space-x-4">
-              <a 
-                href="/resume" 
-                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+            <div className="flex flex-wrap justify-center gap-4">
+              <a
+                href="/resume"
+                className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors"
               >
                 View My Resume
               </a>
-              <a 
-                href="/about" 
-                className="inline-block bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors"
+              <a
+                href="/about"
+                className="inline-block bg-stone-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-stone-600 transition-colors"
               >
                 Learn More About Me
               </a>
