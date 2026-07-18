@@ -4,27 +4,27 @@ import Image from 'next/image'
 const currentWork = [
   {
     label: 'Fine-tuning Foundation Models',
-    detail: 'Data pipelines, PEFT/LoRA, instruction tuning, and alignment for domain-specific use cases.',
+    detail: 'Closing the gap between a general-purpose model and one that actually understands a specific domain well enough to trust.',
   },
   {
     label: 'Sovereign AI & GPU Infrastructure',
-    detail: 'Secure, air-gapped deployments on hardened GPU clusters — sovereignty as a first-class requirement.',
+    detail: 'Designing for environments where data never leaves the building and every dependency has to be accounted for.',
   },
   {
     label: 'Agentic AI Architectures',
-    detail: 'Autonomous systems with self-improvement loops, effective tool use, and measurable task completion.',
+    detail: 'A system that takes action on its own only earns that trust once you can show it acts correctly, consistently.',
   },
   {
     label: 'Model Explainability & Evaluation',
-    detail: 'Building evals that actually catch failures — tool-use measurement, attribution, and behavioral drift.',
+    detail: 'The unglamorous work that determines whether anything above this line can actually be relied on in production.',
   },
   {
     label: 'LLMOps / MLOps',
-    detail: 'Production inference with KServe and vLLM on Kubernetes, paired with GitOps delivery workflows.',
+    detail: "Getting a model from 'it works on my machine' to something that serves real traffic reliably.",
   },
   {
     label: 'Infrastructure as Code',
-    detail: 'Terraform modules and Helm charts for repeatable, auditable platform deployments.',
+    detail: 'Every deployment reproducible and auditable — no snowflake environments, no tribal knowledge.',
   },
 ]
 
@@ -54,12 +54,8 @@ export default function About() {
 
               <p>
                 As a <span className="font-semibold text-amber-700">Senior AI Solutions Engineer at Seekr</span>,
-                I spend my days fine-tuning foundation models, configuring GPU infrastructure for secure
-                environments, and building <span className="font-semibold">Sovereign AI deployments</span> —
-                systems designed to operate with full data residency control, no external API dependence,
-                and compliance from the ground up. I also get deep into the question of how you actually
-                measure whether an agentic system is doing the right things — effective tool use,
-                model explainability, and behavioral evaluation are areas I think about constantly.
+                I work at the intersection of model development and the infrastructure that has to run it
+                safely and reliably. What that looks like day-to-day is below.
               </p>
 
               <p>
@@ -131,29 +127,6 @@ export default function About() {
                 trails that this area offers. There&apos;s something special about being able to explore
                 both urban environments and natural spaces so easily.
               </p>
-            </div>
-
-            {/* Blog Mission */}
-            <div className="mt-12 bg-stone-100 rounded-xl p-8 border border-stone-200">
-              <h2 className="text-2xl font-bold text-stone-900 mb-4 font-serif">About This Site</h2>
-              <p className="text-lg text-stone-700 mb-4">
-                On this site, I&apos;ll be sharing experiences, insights, and lessons from the frontier
-                of AI engineering — the practical stuff that doesn&apos;t always make it into blog posts
-                or conference talks. Things like what actually breaks in production, how to think about
-                model evaluation, and what it means to build AI systems that people can trust.
-              </p>
-
-              <h3 className="text-lg font-semibold text-stone-900 mb-3">Topics I&apos;ll Cover:</h3>
-              <div className="flex flex-wrap gap-3">
-                {['LLMOps', 'Fine-tuning', 'Agentic AI', 'Sovereign AI', 'Model Evaluation', 'Cloud-Native', 'DevOps', 'Side Projects'].map((topic) => (
-                  <span
-                    key={topic}
-                    className="bg-amber-100 text-amber-900 px-3 py-1 rounded-full text-sm font-medium border border-amber-200"
-                  >
-                    {topic}
-                  </span>
-                ))}
-              </div>
             </div>
 
             {/* Closing */}
