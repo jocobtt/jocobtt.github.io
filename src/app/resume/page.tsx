@@ -7,7 +7,13 @@ export default function Resume() {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-stone-900 mb-3 font-serif">Jacob Braswell</h1>
-            <p className="text-2xl text-amber-700 mb-6 font-semibold">Senior AI Solutions Engineer</p>
+            <p className="text-2xl text-amber-700 mb-4 font-semibold">Senior AI Solutions Engineer</p>
+            <div className="inline-flex items-center gap-2 bg-stone-900 text-white px-4 py-1.5 rounded-full text-sm font-medium mb-6">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+              Active Secret Security Clearance
+            </div>
             <div className="text-stone-600 space-y-2">
               <p>Arlington, VA</p>
               <div className="flex flex-wrap justify-center gap-4 text-sm">
@@ -37,6 +43,16 @@ export default function Resume() {
                 </a>
               </div>
             </div>
+            <a
+              href="/Jacob_Braswell_Resume.pdf"
+              download
+              className="inline-flex items-center gap-2 mt-6 bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Download PDF
+            </a>
           </div>
 
           {/* Experience Section */}
@@ -50,14 +66,13 @@ export default function Resume() {
                 <h3 className="text-xl font-bold text-stone-900">
                   Seekr — <span className="text-amber-700">Senior AI Solutions Engineer</span>
                 </h3>
-                <p className="text-stone-500 italic mb-3">January 2026 – Present</p>
+                <p className="text-stone-500 italic mb-1">January 2026 – Present</p>
+                <p className="text-stone-500 text-sm mb-3">Security Clearance: Secret (Active)</p>
                 <ul className="text-stone-700 space-y-2">
-                  <li>• Fine-tuning foundation models for domain-specific tasks using PEFT/LoRA, instruction tuning, and custom alignment pipelines</li>
-                  <li>• Configuring and maintaining GPU infrastructure for secure, air-gapped Sovereign AI deployments with full data residency control</li>
-                  <li>• Designing agentic AI architectures with self-improvement loops and measurable tool-use effectiveness</li>
-                  <li>• Building evaluation frameworks for model explainability, behavioral drift detection, and agentic task completion</li>
-                  <li>• Optimizing production model serving with vLLM and KServe in cloud-native Kubernetes environments</li>
-                  <li>• Automating platform provisioning with Terraform modules and Helm charts for repeatable, auditable deployments</li>
+                  <li>• Lead AI/ML Platform Architect across federal defense and intelligence initiatives; own end-to-end productionalization and lifecycle management for sovereign, air-gapped, FIPS-compliant Next.js, FastAPI, PyTorch, and OpenSearch platforms on Kubernetes</li>
+                  <li>• Engineered a Sovereign AI Redaction &amp; FOIA Platform (SQLModel, pydantic-ai, K8s/Helm) uniting Named Entity Recognition and fine-tuned LLM extraction with an OpenSearch semantic consistency layer to guarantee zero-variance redaction across massive document sets</li>
+                  <li>• Architected a Mechanistic Interpretability &amp; Fine-Tuning Platform (PyTorch/FastAPI) for LLM steering-prefix training, activation collection via forward hooks, and jailbreak detection — with GPU autoscaling across NVIDIA CUDA and AMD ROCm and quantization fallbacks to prevent OOM failures during large model loads</li>
+                  <li>• Built an Agentic Maritime Intelligence Platform fusing real-time acoustic/sonar sensor feeds with a geospatial knowledge graph, training vessel-classification models, Bayesian path-prediction algorithms, and an agentic feedback loop with LLM-driven explainability panels for analyst corrections</li>
                 </ul>
               </div>
 
@@ -65,12 +80,14 @@ export default function Resume() {
                 <h3 className="text-xl font-bold text-stone-900">
                   Booz Allen Hamilton — <span className="text-amber-700">MLOps Engineer</span>
                 </h3>
-                <p className="text-stone-500 italic mb-3">April 2023 – December 2025</p>
+                <p className="text-stone-500 italic mb-1">April 2023 – December 2025</p>
+                <p className="text-stone-500 text-sm mb-3">Security Clearance: Secret (Active)</p>
                 <ul className="text-stone-700 space-y-2">
-                  <li>• Building Generative and Agentic AI solutions</li>
-                  <li>• Building multi-cluster MLOps platforms and GitOps workflows on AWS GovCloud</li>
-                  <li>• Implementing KServe for scalable inference and Karpenter for resource optimization</li>
-                  <li>• Designing Infrastructure-as-Code solutions with Terraform and GitHub Actions</li>
+                  <li>• Implemented an IaC-managed, multi-cluster MLOps platform on AWS GovCloud (ROOF AI project) using KServe for scalable inference and Karpenter for resource optimization — cut costs by 20% and reduced time-to-production for large-scale model deployment</li>
+                  <li>• Built and maintained a pipeline for STIG-hardened containers used in model deployment and data pipelining</li>
+                  <li>• Spearheaded GitOps pipelines optimizing end-to-end container image testing, building, and releasing</li>
+                  <li>• Architected and maintained IaC for an EKS-hosted Jenkins CI/CD instance, using GitHub Actions to manage and deploy the IaC state</li>
+                  <li>• Mentored the aiSSEMBLE squad in DevOps and MLOps best practices critical to production deployment of AI systems</li>
                 </ul>
               </div>
 
@@ -80,10 +97,11 @@ export default function Resume() {
                 </h3>
                 <p className="text-stone-500 italic mb-3">December 2021 – April 2023</p>
                 <ul className="text-stone-700 space-y-2">
-                  <li>• Built ML pipelines and worked with Kubeflow environments</li>
-                  <li>• Created CI/CD pipelines for hundreds of machine learning models using Jenkins</li>
-                  <li>• Developed model evaluation monitoring and logging pipelines</li>
-                  <li>• Integrated Airflow for ETL pipelines and data processing workflows</li>
+                  <li>• Built and maintained CI/CD pipelines via Jenkins to run Terraform code standing up multi-node clusters handling hundreds of machine learning models</li>
+                  <li>• Implemented a Kubeflow environment via Helm and deployed multiple end-to-end ML use cases; integrated Airflow for ETL and model training data pipelines</li>
+                  <li>• Developed and maintained an asset recommender model deployment pipeline using OpenSearch, FastAPI, and FAISS</li>
+                  <li>• Maintained a FedRAMP EKS environment, updating container images for CVE compliance and keeping cluster nodes rotated and current</li>
+                  <li>• Mentored sales teams on ML platform capabilities and onboarded/coached 2 junior engineers over the course of a year</li>
                 </ul>
               </div>
 
@@ -93,10 +111,10 @@ export default function Resume() {
                 </h3>
                 <p className="text-stone-500 italic mb-3">July 2019 – December 2021</p>
                 <ul className="text-stone-700 space-y-2">
-                  <li>• Created MLOps training environments and deployed Kubernetes at scale</li>
-                  <li>• Built cloud-based training environments for hundreds of customers</li>
-                  <li>• Implemented cloud governance automation using Cloud Custodian</li>
-                  <li>• Used Prometheus, Grafana, and Thanos for monitoring Kubernetes workloads</li>
+                  <li>• Built standalone MLOps training environments on Azure for hundreds of customers and internal employees; used Terraform to deploy GCP/AWS microservice applications at scale on Kubernetes</li>
+                  <li>• Deployed cloud governance automation with Cloud Custodian across internal AWS, Azure, and GCP accounts; used Prometheus, Grafana, and Thanos to monitor Kubernetes workloads</li>
+                  <li>• Integrated ML models via APIs into CI/CD processes for training, deploying, and retraining</li>
+                  <li>• Mentored MLOps efforts across the LATAM/North America regions and guided yearly intern cohorts through onboarding and project delivery</li>
                 </ul>
               </div>
 
@@ -177,6 +195,14 @@ export default function Resume() {
                   <div className="flex flex-wrap gap-2">
                     {['Pinecone', 'Chroma', 'Vespa'].map(s => (
                       <span key={s} className="bg-stone-100 text-stone-700 px-2 py-0.5 rounded text-sm border border-stone-200">{s}</span>
+                    ))}
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-stone-200">
+                  <h4 className="font-semibold text-stone-900 mb-2 text-sm uppercase tracking-wide text-amber-700">MLOps Orchestration</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {['Kubeflow', 'Metaflow', 'MLflow', 'Airflow'].map(s => (
+                      <span key={s} className="bg-amber-50 text-amber-800 px-2 py-0.5 rounded text-sm border border-amber-200">{s}</span>
                     ))}
                   </div>
                 </div>
