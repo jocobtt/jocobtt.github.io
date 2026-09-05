@@ -11,8 +11,8 @@ export default function Connect() {
             </h1>
             <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full mb-6"></div>
             <p className="text-xl text-stone-600 leading-relaxed max-w-2xl mx-auto">
-              I love chatting about AI, LLMOps, fine-tuning, agentic systems, infrastructure, or just about anything interesting.
-              Hit me up if you want to connect!
+              Always glad to connect on AI infrastructure, LLMOps, fine-tuning, and agentic
+              systems — reach out if you&apos;d like to talk shop or collaborate.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ export default function Connect() {
                     <h3 className="text-xl font-bold text-stone-900 group-hover:text-amber-700 transition-colors">
                       LinkedIn
                     </h3>
-                    <p className="text-stone-500 mt-1">Best for professional stuff</p>
+                    <p className="text-stone-500 mt-1">Professional inquiries and networking</p>
                   </div>
                 </div>
                 <div className="mt-4 text-amber-700 group-hover:text-amber-800 font-medium flex items-center">
