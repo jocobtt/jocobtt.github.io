@@ -140,10 +140,10 @@ export default function About() {
             <div className="mt-12 text-center">
               <div className="relative inline-block">
                 <Image
-                  src="/img/Iceland.png"
+                  src="/img/Iceland.jpg"
                   alt="Hiking in Iceland - one of my favorite outdoor adventures"
                   width={800}
-                  height={600}
+                  height={858}
                   className="rounded-xl shadow-lg"
                   priority
                 />
