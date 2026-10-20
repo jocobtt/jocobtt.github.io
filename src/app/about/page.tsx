@@ -53,7 +53,7 @@ export default function About() {
               </p>
 
               <p>
-                As a <span className="font-semibold text-amber-700">Senior AI Solutions Engineer at Seekr</span>,
+                As a <span className="font-semibold text-amber-700">Staff AI Engineer at Seekr</span>,
                 I work at the intersection of model development and the infrastructure that has to run it
                 safely and reliably. What that looks like day-to-day is below.
               </p>

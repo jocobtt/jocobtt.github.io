@@ -83,7 +83,7 @@ export default function Home() {
             Jacob Braswell
           </h1>
           <p className="text-xl md:text-2xl text-amber-700 font-semibold max-w-2xl mx-auto mb-6">
-            Senior AI Solutions Engineer
+            Staff AI Engineer
           </p>
           <p className="text-lg text-stone-500 max-w-3xl mx-auto leading-relaxed mb-10">
             I build and ship AI systems that actually work in production — fine-tuning models,

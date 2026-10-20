@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "Jacob Braswell - Senior AI Solutions Engineer";
-const description = "Personal website of Jacob Braswell — Senior AI Solutions Engineer at Seekr. Fine-tuning, Sovereign AI, agentic architectures, LLMOps.";
+const title = "Jacob Braswell - Staff AI Engineer";
+const description = "Personal website of Jacob Braswell — Staff AIS Engineer at Seekr. Fine-tuning, Sovereign AI, agentic architectures, LLMOps.";
 const siteUrl = "https://jocobtt.github.io";
 
 export const metadata: Metadata = {
